@@ -47,4 +47,4 @@ You can find the component's source code in the `components/` directory. This ex
 
 All additional files and folders are not relevant to the examples, but are either required for the project to run or are quality-of-life for me.
 
-If you have any questions, please feel free to [create a new issue in the issue tracker]().
+If you have any questions, please feel free to [create a new issue in the issue tracker](https://github.com/BD103/React-Svelte-Vue/issues).
