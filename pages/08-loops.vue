@@ -1,4 +1,5 @@
 <template>
+    <!-- `key` is a hint for Vue's VDOM. -->
     <p v-for="item in items" :key="item.id">{{ item.name }}</p>
 </template>
 
@@ -13,4 +14,6 @@ const items = [
 <!--
 See:
     - https://vuejs.org/guide/essentials/list.html
+    - https://vuejs.org/guide/essentials/list.html#maintaining-state-with-key
+    - https://vuejs.org/api/built-in-special-attributes.html#key
 -->

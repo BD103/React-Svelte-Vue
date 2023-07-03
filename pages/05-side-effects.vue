@@ -1,4 +1,5 @@
 <template>
+    <!-- `<Title>` is like `<title>` but for Nuxt. -->
     <Title>count is {{ count }}</Title>
 
     <button @click="count++">Increment</button>

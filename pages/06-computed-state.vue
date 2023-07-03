@@ -8,6 +8,8 @@
 
 <script setup lang="ts">
 const count = ref(0);
+
+// This automatically gets re-evaluated whenever `count` is updated.
 const doubled = computed(() => count.value * 2);
 </script>
 

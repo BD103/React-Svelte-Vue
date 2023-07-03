@@ -1,5 +1,7 @@
 <template>
+    <!-- `<Suspense>` orchestrates asynchronous components. -->
     <Suspense>
+        <!-- This is an asynchronous component. -->
         <AsyncNumber />
 
         <template #fallback>
@@ -10,7 +12,7 @@
 
 <script setup lang="ts">
 onErrorCaptured(err => {
-    // Handle error
+    // Handle error here...
 });
 </script>
 
